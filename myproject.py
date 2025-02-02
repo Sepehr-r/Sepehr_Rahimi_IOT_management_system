@@ -25,7 +25,15 @@ a.device_type
 a.read_sensor()
 
 
+'''
 
+APM:
+
+neveshtin ke pycharm kar mikone inja na
+inja manzooretoon github hast? github jaee baraye run nadare
+
+
+'''
 #import paho.mqtt.client as mqtt
 #import RPi.GPIO as GPIO        
 class Device(Sensor):
