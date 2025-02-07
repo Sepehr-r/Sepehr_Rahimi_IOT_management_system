@@ -47,6 +47,16 @@ inja manzooretoon github hast? github jaee baraye run nadare
 na manzoram dakhel pychram ke ba super motagheyrhay klass ghabli ke moshtarak hast farkhani mikonim
 ama dakhel spyder kar nemikonad
 
+
+****
+ba super() shoam mitonid clas ghabli ro farakhani konid
+ama be harhal rabti b spdyer, pycharm nadare, compilere hamashon pythone
+emkan nadare yek code bznid va spyder yek javab bede va pycharm javabe dg ee
+faghat GUI frgh darad
+
+
+
+
 '''
 #import paho.mqtt.client as mqtt
 #import RPi.GPIO as GPIO        
@@ -261,7 +271,7 @@ class AdminPanel(Device):
                 else:
                     pass
                 
-    def test_healty_device(self,group_name,device_type,name):
+    def test_healthy_device(self,group_name,device_type,name):
         pass
     
 a1=AdminPanel()               
@@ -275,14 +285,36 @@ a1.add_device_to_group('living_room', 'lamps')
 a1.add_device_to_group('parking', 'door')
 a1.groups
 a1.creat_device('living_room','lamps','lamp1')  #<__main__.Device object at 0x00000126460729F0> created! چکار کنیم که بخشی ار حافظه نشان ندهد
+#motasefane nemishnase classi k ma sakhtim ro 
+
+
 a1.groups
 a1.create_multiple_devices('living_room','lamps',40)
 mygroups=a1.groups['living_room']
 mygroups[1].name #lamps2'
 mygroups[3].name
+
+#----------
+'''
+bebinid shoma yek class darid bename a1 , tamam tabe ha mesle turn_off_all and ... hame ina motealegh b a1 hast
+masalan bayad benevsiid a1.create .. and ...
+
+bad tooo dele khode adminpanel (a1) ma yek groups darim k yek dictionarie
+bad shoma ag bezanid a1.groups['living_room'] in yek list hast bad ag benevisid [0] in dg admin_panel nsiot balke yek variable
+yek class dg bename (Device) hast k tabe haye khodesho dare
+shoma yekja neveshtid mygroups[1] --> in device e 2 vom tooye living room hast k yek class hast bename Device ke tabe haye (turn_off , turn_on va .. dare)
+ama dose khat paeen tar shoma neveshtid mygroup[1].turn_off_all() --> in tabe ye turn_off_all az adminpanel hast na device
+mitonid benevisid a1.turn_off_all()
+'''
+
+
+#-------
 mygroups[1].turn_on()   
 mygroups[1].turn_off()    #چرا از توابع کلاس دیوایس استفاده شده وقتی که تابع آن داخل خود کلاس تعربف شده چون این مثال برای خاموشی دیوایس داخل گروه خودش یوده
+
 mygroups[1].turn_off_all()    #AttributeError : 'Device' object has no attribute 'turn_off_all'
+
+
 mygroups[2].get_status()
 mygroups[2].get_status_in_group()     #AttributeError: 'Device' object has no attribute 'get_status_in_group'
 s1=AdminPanel()
