@@ -44,6 +44,8 @@ APM:
 neveshtin ke pycharm kar mikone inja na
 inja manzooretoon github hast? github jaee baraye run nadare
 
+na manzoram dakhel pychram ke ba super motagheyrhay klass ghabli ke moshtarak hast farkhani mikonim
+ama dakhel spyder kar nemikonad
 
 '''
 #import paho.mqtt.client as mqtt
