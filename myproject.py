@@ -9,6 +9,8 @@ Alan prozhe nahaei hamine?
 bale faghat shoma bayad 1--> tamame print haro neevshte bashid
 2--> task1 ro kamel ezafe krde bashid (k anjam dadid)
 3--> va takmil konid tamame function haro + 2 ta function ham az rooye khalaghiat ekhdoeton
+**commente akahr ham bebinid va bebinid aya nokteye estefadeye class ha ro gereftid ? va b in fekr konid chegone dar real world azin fucntion ha estefade mishe, 
+yani user interfacemon chie? (k dar jalaseye akhar sohabt mishe rajebesh
 
 '''
 
