@@ -6,6 +6,9 @@ injaro ezafe kardam agar soal dashtid inja benevisid, moafagh bashid
 
 
 Alan prozhe nahaei hamine?
+bale faghat shoma bayad 1--> tamame print haro neevshte bashid
+2--> task1 ro kamel ezafe krde bashid (k anjam dadid)
+3--> va takmil konid tamame function haro + 2 ta function ham az rooye khalaghiat ekhdoeton
 
 '''
 
