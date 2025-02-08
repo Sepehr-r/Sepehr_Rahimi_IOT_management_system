@@ -5,7 +5,7 @@ APM:
 injaro ezafe kardam agar soal dashtid inja benevisid, moafagh bashid
 
 
-
+Alan prozhe nahaei hamine?
 
 '''
 
@@ -54,7 +54,7 @@ ama be harhal rabti b spdyer, pycharm nadare, compilere hamashon pythone
 emkan nadare yek code bznid va spyder yek javab bede va pycharm javabe dg ee
 faghat GUI frgh darad
 
-
+Sepas
 
 
 '''
