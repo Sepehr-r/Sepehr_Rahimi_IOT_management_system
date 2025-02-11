@@ -312,7 +312,13 @@ ama dose khat paeen tar shoma neveshtid mygroup[1].turn_off_all() --> in tabe ye
 mitonid benevisid a1.turn_off_all()
 '''
 
+'''
+yekam baram pichide shode vaghiat 
+az a1.turn_off_all() estefade kardam vali baz error dad
+fekr konam kola moshkel az tabei ke tarif kardam hast
 
+saiti nist ke tamrin karbordi az classha va tavabe dade bashe ke botonim bishtar tamrin konim
+'''
 #-------
 mygroups[1].turn_on()   
 mygroups[1].turn_off()    #چرا از توابع کلاس دیوایس استفاده شده وقتی که تابع آن داخل خود کلاس تعربف شده چون این مثال برای خاموشی دیوایس داخل گروه خودش یوده
