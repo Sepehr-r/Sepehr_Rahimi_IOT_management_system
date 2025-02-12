@@ -318,6 +318,14 @@ az a1.turn_off_all() estefade kardam vali baz error dad
 fekr konam kola moshkel az tabei ke tarif kardam hast
 
 saiti nist ke tamrin karbordi az classha va tavabe dade bashe ke botonim bishtar tamrin konim
+
+
+APM:
+**videoye class haro dobare bebinid
+bebinid shoma bayad  bezanid a1=Adminclasss ()
+badesh .create_group() goropetono ebsazid
+badesh bayad device haro besazid
+badesh mitonid az masalan turn_off_all ina estefade koni
 '''
 #-------
 mygroups[1].turn_on()   
