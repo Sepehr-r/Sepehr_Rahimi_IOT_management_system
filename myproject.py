@@ -347,6 +347,10 @@ faghat tabe roshan khamosh kardan kol device ha moshkel darad
 APM:
 
 Barat comment gozashtam check konid
+
+
+mamnoon
+
 '''
 #-------
 mygroups[1].turn_on()   
