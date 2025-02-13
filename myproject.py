@@ -226,7 +226,17 @@ class AdminPanel(Device):
         for device in devices:
             device.turn_off()
             print(f'{device} is turned off')
-        
+    '''
+    def trun_on_all(self):
+        devices_all=self.group
+        for group in devices_all:
+            for device in group:
+                device.turn_one()
+                print(f'{device} are turned on')
+        pass
+
+
+    '''
     def trun_on_all(self):
         devices_all=self.group
         for device in devices_all:
@@ -331,6 +341,12 @@ badesh mitonid az masalan turn_off_all ina estefade koni
 ona sakhtam group ha misaze 
 device dakhel group khamosh roshan mikone
 faghat tabe roshan khamosh kardan kol device ha moshkel darad
+
+
+
+APM:
+
+Barat comment gozashtam check konid
 '''
 #-------
 mygroups[1].turn_on()   
