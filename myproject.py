@@ -326,6 +326,11 @@ bebinid shoma bayad  bezanid a1=Adminclasss ()
 badesh .create_group() goropetono ebsazid
 badesh bayad device haro besazid
 badesh mitonid az masalan turn_off_all ina estefade koni
+
+
+ona sakhtam group ha misaze 
+device dakhel group khamosh roshan mikone
+faghat tabe roshan khamosh kardan kol device ha moshkel darad
 '''
 #-------
 mygroups[1].turn_on()   
