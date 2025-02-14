@@ -359,6 +359,7 @@ mygroups[1].turn_off()    #چرا از توابع کلاس دیوایس استف
 mygroups[1].turn_off_all()    #AttributeError : 'Device' object has no attribute 'turn_off_all'
 
 
+
 mygroups[2].get_status()
 mygroups[2].get_status_in_group()     #AttributeError: 'Device' object has no attribute 'get_status_in_group'
 s1=AdminPanel()
